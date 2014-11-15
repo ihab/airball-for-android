@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" >Airball</string>
+    
+    <string name="start_airball_actual_data">Start Airball</string>
+    <string name="start_airball_dummy_data">start dummy airball</string><string name="stop_airball">Stop Airball</string><string name="stop">Stop</string>
+    
+</resources>

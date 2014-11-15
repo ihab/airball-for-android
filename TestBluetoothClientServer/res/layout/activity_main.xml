@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/log"
+        android:layout_width="292dp"
+        android:layout_height="332dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/radioGroup1"
+        android:background="@color/scrollbg"
+        android:maxLines="65536"
+        android:scrollbars="vertical"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/log"
+        android:layout_alignParentTop="true" >
+
+        <RadioButton
+            android:id="@+id/client_server_off"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/client_server_off" />
+
+        <RadioButton
+            android:id="@+id/act_as_client"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/act_as_client" />
+
+        <RadioButton
+            android:id="@+id/act_as_server"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/act_as_server" />
+
+        <RadioButton
+            android:id="@+id/act_as_skyview_proxy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/act_as_skyview_proxy" />
+
+        <RadioButton
+            android:id="@+id/act_as_skyview_dummy_source"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/act_as_skyview_dummy_source" />
+        
+    </RadioGroup>
+
+</RelativeLayout>

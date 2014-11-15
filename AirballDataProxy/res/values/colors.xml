@@ -1,0 +1,5 @@
+<resources>
+    <color name="scrollbg">#FCE6C9</color>
+    <color name="screenbg">#ff9090</color>
+    <color name="process_node_bg">#e0e0e0</color>
+</resources>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string name="app_name">Airball for Android</string>
+
+    <string name="return_to_display">Return to display</string>
+
+    <!-- preference categories -->
+
+    <string name="pref_category_view_settings_title">View settings</string>
+    <string name="pref_category_data_settings_title">Data settings</string>
+    <string name="pref_category_angles_title">Critical flight angles</string>
+    <string name="pref_category_v_speeds_title">V speeds</string>
+
+    <!-- pref_view_type -->
+
+    <string name="pref_view_type_key">pref_view_type</string>
+    <string name="pref_view_type_title">View type</string>
+
+    <string name="pref_view_type_entry_pfd">Full PFD</string>
+    <string name="pref_view_type_entry_analog">Analog only</string>
+
+    <string name="pref_view_type_value_pfd">pfd</string>
+    <string name="pref_view_type_value_analog">analog</string>
+
+    <string-array name="pref_view_type_entries">
+        <item>@string/pref_view_type_entry_pfd</item>
+        <item>@string/pref_view_type_entry_analog</item>
+    </string-array>
+
+    <string-array name="pref_view_type_values">
+        <item>@string/pref_view_type_value_pfd</item>
+        <item>@string/pref_view_type_value_analog</item>
+    </string-array>
+    
+    <!-- pref_data_source -->
+
+    <string name="pref_data_source_key">pref_data_source</string>
+    <string name="pref_data_source_title">Data source</string>
+
+    <string name="pref_data_source_entry_dummy_data">Dummy data from accelerometer</string>
+    <string name="pref_data_source_entry_constant_data">Constant data for UI testing</string>
+    <string name="pref_data_source_entry_skyview_bluetooth">Dynon Skyview data over Bluetooth</string>
+    <string name="pref_data_source_entry_xplane_udp">X-Plane data over IP</string>
+
+    <string name="pref_data_source_value_dummy_data">dummy_data</string>
+    <string name="pref_data_source_value_constant_data">constant_data</string>
+    <string name="pref_data_source_value_skyview_bluetooth">skyview_bluetooth</string>
+    <string name="pref_data_source_value_xplane_udp">xplane_udp</string>
+
+    <string-array name="pref_data_source_entries">
+        <item>@string/pref_data_source_entry_dummy_data</item>
+        <item>@string/pref_data_source_entry_constant_data</item>
+        <item>@string/pref_data_source_entry_skyview_bluetooth</item>
+        <item>@string/pref_data_source_entry_xplane_udp</item>
+    </string-array>
+
+    <string-array name="pref_data_source_values">
+        <item>@string/pref_data_source_value_dummy_data</item>
+        <item>@string/pref_data_source_value_constant_data</item>
+        <item>@string/pref_data_source_value_skyview_bluetooth</item>
+        <item>@string/pref_data_source_value_xplane_udp</item>
+    </string-array>
+
+    <!-- pref_xplane_ip_port -->
+
+    <string name="pref_xplane_ip_port_key">pref_xplane_ip_port</string>
+    <string name="pref_xplane_ip_port_title">X-Plane IP port to listen on</string>
+    <string name="pref_xplane_ip_port_default">50000</string>
+
+    <!-- pref_xplane_ip_protocol -->
+
+    <string name="pref_xplane_ip_protocol_key">pref_xplane_ip_protocol</string>
+    <string name="pref_xplane_ip_protocol_title">X-Plane IP protocol</string>
+
+    <string name="pref_xplane_ip_protocol_entry_udp">UDP</string>
+    <string name="pref_xplane_ip_protocol_entry_tcp">TCP</string>
+
+    <string name="pref_xplane_ip_protocol_value_udp">udp</string>
+    <string name="pref_xplane_ip_protocol_value_tcp">tcp</string>
+
+    <string-array name="pref_xplane_ip_protocol_entries">
+        <item>@string/pref_xplane_ip_protocol_entry_udp</item>
+        <item>@string/pref_xplane_ip_protocol_entry_tcp</item>
+    </string-array>
+
+    <string-array name="pref_xplane_ip_protocol_values">
+        <item>@string/pref_xplane_ip_protocol_value_udp</item>
+        <item>@string/pref_xplane_ip_protocol_value_tcp</item>
+    </string-array>
+
+    <!-- pref_alpha_min -->
+
+    <string name="pref_alpha_min_key">pref_alpha_min</string>
+    <string name="pref_alpha_min_title">α minimum (degrees)</string>
+    <string name="pref_alpha_min_default">3.0</string>
+
+    <!-- pref_alpha_y -->
+
+    <string name="pref_alpha_y_key">pref_alpha_y</string>
+    <string name="pref_alpha_y_title">αy (degrees)</string>
+    <string name="pref_alpha_y_default">7.0</string>
+
+    <!-- pref_alpha_x -->
+
+    <string name="pref_alpha_x_key">pref_alpha_x</string>
+    <string name="pref_alpha_x_title">αx (degrees)</string>
+    <string name="pref_alpha_x_default">9.0</string>
+
+    <!-- pref_alpha_ref -->
+
+    <string name="pref_alpha_ref_key">pref_alpha_ref</string>
+    <string name="pref_alpha_ref_title">α ref (degrees)</string>
+    <string name="pref_alpha_ref_default">12.0</string>
+
+    <!-- pref_alpha_s -->
+
+    <string name="pref_alpha_s_key">pref_alpha_s</string>
+    <string name="pref_alpha_s_title">α stall (degrees)</string>
+    <string name="pref_alpha_s_default">15.0</string>
+
+    <!-- pref_beta_full_scale -->
+
+    <string name="pref_beta_full_scale_key">pref_beta_full_scale</string>
+    <string name="pref_beta_full_scale_title">β full scale (degrees)</string>
+    <string name="pref_beta_full_scale_default">5.0</string>
+
+    <!-- pref_v_s0 -->
+
+    <string name="pref_v_s0_key">pref_v_s0</string>
+    <string name="pref_v_s0_title">Vs0 (kias)</string>
+    <string name="pref_v_s0_default">35.0</string>
+
+    <!-- pref_v_s1 -->
+
+    <string name="pref_v_s1_key">pref_v_s1</string>
+    <string name="pref_v_s1_title">Vs1 (kias)</string>
+    <string name="pref_v_s1_default">45.0</string>
+
+    <!-- pref_v_fe -->
+
+    <string name="pref_v_fe_key">pref_v_fe</string>
+    <string name="pref_v_fe_title">Vfe (kias)</string>
+    <string name="pref_v_fe_default">84.0</string>
+
+    <!-- pref_v_no -->
+
+    <string name="pref_v_no_key">pref_v_no</string>
+    <string name="pref_v_no_title">Vno (kias)</string>
+    <string name="pref_v_no_default">126.0</string>
+
+    <!-- pref_v_ne -->
+
+    <string name="pref_v_ne_key">pref_v_ne</string>
+    <string name="pref_v_ne_title">Vne (kias)</string>
+    <string name="pref_v_ne_default">158.0</string>
+</resources>

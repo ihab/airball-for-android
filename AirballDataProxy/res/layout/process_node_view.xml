@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/process_node_view_top"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/process_node_bg"
+    android:padding="5dp"
+    tools:ignore="HardcodedText" >
+
+    <RelativeLayout
+        android:id="@+id/process_node_view_upper_panel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/background_light"
+        android:padding="5dp" >    
+
+		    <RelativeLayout
+		        android:id="@+id/process_node_view_text_panel"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentLeft="true"
+		        android:layout_alignParentTop="true"
+		        android:layout_toLeftOf="@+id/process_node_view_remove"
+		        android:background="@android:color/background_light"
+		        android:padding="5dp" >
+		    
+		        <TextView
+		            android:id="@+id/process_node_view_title"
+		            android:layout_width="match_parent"
+		            android:layout_height="wrap_content"
+		            android:layout_alignParentLeft="true"
+		            android:layout_alignParentTop="true"
+		            android:layout_toLeftOf="@+id/process_node_view_runmode"
+		            android:text="Title"
+		            android:textStyle="bold" />
+		
+		        <TextView
+		            android:id="@+id/process_node_view_status"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_alignLeft="@+id/process_node_view_title"
+		            android:layout_alignRight="@+id/process_node_view_title"
+		            android:layout_below="@+id/process_node_view_title"
+		            android:text="status"
+		            android:textAppearance="?android:attr/textAppearanceSmall"
+		            android:typeface="monospace"
+		            android:textSize="12sp" />
+		
+		        <TextView
+		            android:id="@+id/process_node_view_runmode"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_alignBottom="@+id/process_node_view_title"
+		            android:layout_alignParentRight="true"
+		            android:text="TextView"
+		            android:gravity="right"
+		            android:textStyle="italic"
+		            android:width="100dp" />
+		
+		    </RelativeLayout>
+	
+		    <ImageButton
+		        android:id="@+id/process_node_view_remove"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentRight="true"
+		        android:layout_alignParentTop="true"
+		        android:background="@drawable/button_cancel"
+		        android:contentDescription="cancel"
+		        android:height="30dp"
+		        android:minHeight="0dp"
+		        android:minWidth="0dp"
+		        android:width="30dp" />
+		    
+		    <RelativeLayout
+		        android:id="@+id/process_node_view_additional"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_below="@+id/process_node_view_text_panel"/>
+
+    </RelativeLayout>
+
+    <Space
+        android:id="@+id/process_node_view_space"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_below="@+id/process_node_view_upper_panel" />
+
+    <LinearLayout
+        android:id="@+id/process_node_view_subviews"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/process_node_view_space"
+        android:background="@android:color/background_light"
+        android:divider="@drawable/scroll_view_divider"
+        android:minHeight="10dp"
+        android:orientation="vertical"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:showDividers="beginning|middle|end" />
+
+</RelativeLayout>

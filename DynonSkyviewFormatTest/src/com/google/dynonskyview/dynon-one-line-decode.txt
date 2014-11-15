@@ -1,0 +1,34 @@
+Manual decoding for a quick check
+=================================================================
+
+== Data line ==
+
+03032924+018+00053000000+0096-001+01+1099FA49FE01C0
+
+== Decoding ==
+
+03032924 -- Time
+
++018 -- Pitch +1.8 degrees
+
++0005 -- Roll +0.5 degrees
+
+300 -- Yaw 300 degrees
+
+0000 -- Airspeed 0 m/s
+
++0096 -- Pressure altitude +96 meters
+
+-001 -- VSI -0.1 feet/second
+
++01 -- Lateral acceleration +0.01 g
+
++10 -- Vertical acceleration +1.0 g
+
+99 -- AOA 99% of stall
+
+FA49FE -- status bitmask, lsb = 1
+
+01 -- internal use
+
+C0 -- checksum

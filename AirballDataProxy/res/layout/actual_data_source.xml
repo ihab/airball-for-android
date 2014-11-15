@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/process_node_view_top"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="2"
+    android:padding="5dp"
+    tools:ignore="HardcodedText" >
+    
+    <TextView
+        android:id="@+id/actual_data_source_baud_rate_label"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:text="Baud rate" />
+
+    <Spinner
+        android:id="@+id/actual_data_source_baud_rate"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="1" />
+    
+    <TextView
+        android:id="@+id/actual_data_source_data_bits_label"
+        android:layout_height="wrap_content"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:text="Data bits" />
+
+    <Spinner
+        android:id="@+id/actual_data_source_data_bits"
+        android:layout_height="wrap_content"
+        android:layout_row="1"
+        android:layout_column="1" />
+    
+    <TextView
+        android:id="@+id/actual_data_source_stop_bits_label"
+        android:layout_height="wrap_content"
+        android:layout_row="2"
+        android:layout_column="0"
+        android:text="Stop bits" />
+
+    <Spinner
+        android:id="@+id/actual_data_source_stop_bits"
+        android:layout_height="wrap_content"
+        android:layout_row="2"
+        android:layout_column="1" />
+    
+    <TextView
+        android:id="@+id/actual_data_source_parity_label"
+        android:layout_height="wrap_content"
+        android:layout_row="3"
+        android:layout_column="0"
+        android:text="Parity" />
+
+    <Spinner
+        android:id="@+id/actual_data_source_parity"
+        android:layout_height="wrap_content"
+        android:layout_row="3"
+        android:layout_column="1" />
+    
+    <TextView
+        android:id="@+id/actual_data_source_flow_control_label"
+        android:layout_height="wrap_content"
+        android:layout_row="4"
+        android:layout_column="0"
+        android:text="Flow control" />
+
+    <Spinner
+        android:id="@+id/actual_data_source_flow_control"
+        android:layout_height="wrap_content"
+        android:layout_row="4"
+        android:layout_column="1" />    
+
+</GridLayout>

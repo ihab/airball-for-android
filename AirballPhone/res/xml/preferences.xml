@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="@string/pref_category_view_settings_title">
+
+        <ListPreference
+            android:key="@string/pref_view_type_key"
+            android:title="@string/pref_view_type_title"
+            android:entries="@array/pref_view_type_entries"
+            android:entryValues="@array/pref_view_type_values"
+            android:defaultValue="@string/pref_view_type_value_pfd" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/pref_category_data_settings_title">
+
+        <ListPreference
+            android:key="@string/pref_data_source_key"
+            android:title="@string/pref_data_source_title"
+            android:entries="@array/pref_data_source_entries"
+            android:entryValues="@array/pref_data_source_values"
+            android:defaultValue="@string/pref_data_source_value_dummy_data" />
+
+        <EditTextPreference
+            android:key="@string/pref_xplane_ip_port_key"
+            android:title="@string/pref_xplane_ip_port_title"
+            android:inputType="number"
+            android:defaultValue="@string/pref_xplane_ip_port_default" />
+
+        <ListPreference
+            android:key="@string/pref_xplane_ip_protocol_key"
+            android:title="@string/pref_xplane_ip_protocol_title"
+            android:entries="@array/pref_xplane_ip_protocol_entries"
+            android:entryValues="@array/pref_xplane_ip_protocol_values"
+            android:defaultValue="@string/pref_xplane_ip_protocol_value_udp" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/pref_category_angles_title">
+
+        <EditTextPreference
+            android:key="@string/pref_alpha_min_key"
+            android:title="@string/pref_alpha_min_title"
+            android:inputType="numberDecimal|numberSigned"
+            android:defaultValue="@string/pref_alpha_min_default" />
+
+        <EditTextPreference
+            android:key="@string/pref_alpha_y_key"
+            android:title="@string/pref_alpha_y_title"
+            android:inputType="numberDecimal|numberSigned"
+            android:defaultValue="@string/pref_alpha_y_default" />
+
+        <EditTextPreference
+            android:key="@string/pref_alpha_x_key"
+            android:title="@string/pref_alpha_x_title"
+            android:inputType="numberDecimal|numberSigned"
+            android:defaultValue="@string/pref_alpha_x_default" />
+
+        <EditTextPreference
+            android:key="@string/pref_alpha_ref_key"
+            android:title="@string/pref_alpha_ref_title"
+            android:inputType="numberDecimal|numberSigned"
+            android:defaultValue="@string/pref_alpha_ref_default" />
+
+        <EditTextPreference
+            android:key="@string/pref_alpha_s_key"
+            android:title="@string/pref_alpha_s_title"
+            android:inputType="numberDecimal|numberSigned"
+            android:defaultValue="@string/pref_alpha_s_default" />
+
+        <EditTextPreference
+            android:key="@string/pref_beta_full_scale_key"
+            android:title="@string/pref_beta_full_scale_title"
+            android:inputType="numberDecimal"
+            android:defaultValue="@string/pref_beta_full_scale_default" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/pref_category_v_speeds_title">
+
+        <EditTextPreference
+            android:key="@string/pref_v_s0_key"
+            android:title="@string/pref_v_s0_title"
+            android:inputType="numberDecimal"
+            android:defaultValue="@string/pref_v_s0_default" />
+
+        <EditTextPreference
+            android:key="@string/pref_v_s1_key"
+            android:title="@string/pref_v_s1_title"
+            android:inputType="numberDecimal"
+            android:defaultValue="@string/pref_v_s1_default" />
+
+        <EditTextPreference
+            android:key="@string/pref_v_fe_key"
+            android:title="@string/pref_v_fe_title"
+            android:inputType="numberDecimal"
+            android:defaultValue="@string/pref_v_fe_default" />
+
+        <EditTextPreference
+            android:key="@string/pref_v_no_key"
+            android:title="@string/pref_v_no_title"
+            android:inputType="numberDecimal"
+            android:defaultValue="@string/pref_v_no_default" />
+
+        <EditTextPreference
+            android:key="@string/pref_v_ne_key"
+            android:title="@string/pref_v_ne_title"
+            android:inputType="numberDecimal"
+            android:defaultValue="@string/pref_v_ne_default" />
+    </PreferenceCategory>
+</PreferenceScreen>

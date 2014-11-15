@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Test Bluetooth Client/Server</string>
+    <string name="action_settings">Settings</string>
+    <string name="act_as_client">Act as a test client</string>
+    <string name="act_as_server">Act as a test server</string>
+    <string name="act_as_skyview_proxy">Act as a Dynon Skyview proxy</string>    
+    <string name="client_server_off">Client/server off</string>
+    <string name="act_as_skyview_dummy_source">Act as Dynon Skyview dummy source</string>
+</resources>
