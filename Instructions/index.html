@@ -1,0 +1,349 @@
+<html>
+
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <title>Airball for Android Instructions</title>
+  </head>
+
+  <body>
+
+    <h1 class="title">Airball for Android Instructions</h1>
+
+    <h2>Introduction to Airball</h2>
+
+    <p>Wolfgang Langewiesche’s classic book <a
+     href="http://www.amazon.com/Stick-Rudder-Explanation-Art-Flying/dp/0070362408"><em>Stick
+    and Rudder: An Explanation of the Art of Flying</em></a>, first
+    published in 1944, remains the definitive description of how to
+    fly a small piston powered aircraft under visual flight rules. The
+    book teaches aviators to <em>fly the wing</em> -- since the
+    airplane is merely a wing with whatever supporting machinery
+    necessary to make it work -- and that the most important quantity
+    for that task is the angle of attack (AoA).</p>
+
+    <p>Seventy years later, we have a proliferation of small aircraft
+    under the US Light Sport rule and the EU and Australian Microlight
+    categories. One would think the manufacturers of such aircraft
+    would heed Mr Langewiesche’s advice. However, a survey of the
+    panels sold with these airplanes shows a dazzling array of
+    expensive instrumentation.</p>
+
+    <p>But 3D synthetic vision is in no way relevant to VFR flight
+    when one can simply look out the window! And in the meantime,
+    pilots continue to guess at the AoA from other cues such as speed,
+    attitude, wind noise and other factors. These are important
+    skills, and those who master them are rightly proud. But they need
+    not be necessary skills -- at least not unless the flight
+    instruments fail (and modern instruments can be very
+    reliable).</p>
+
+    <p>Airball is a proposal for a display that should change all
+    that. It combines AoA, angle of sideslip and indicated airspeed
+    into one simple, glance-able visualization that is easy to
+    interpret. And that means the pilot spends less time looking at
+    the instrument, and more time looking out the window.</p>
+
+    <p>In a sense, Airball is the instrument one would design if one's
+    goal were to <em>not</em> have people look at it.</p>
+
+    <p class="figure">
+      <img height="150px" src="figures/airball-pfd.png">
+    </p>
+
+    <p><strong>The ball (the blue dot) directly visualizes the
+    relative wind vector</strong> -- where the wind is coming from
+    relative to the airplane.</p>
+
+    <p><img height="150px" src="figures/relative-wind.png"></p>
+
+    <p>“Ball left” means the wind is coming from the left, i.e., the
+    aircraft is yawed right. “Kicking the ball”, in the usual fashion,
+    corrects the yaw. “Ball low” means the wind is coming from below,
+    i.e., the aircraft is at a high AoA. The instrument is “fixed” to
+    the airframe, so diving the airplane makes the ball rise relative
+    to the instrument -- and reduces the AoA.</p>
+
+    <p>The diameter of the ball is proportional to indicated
+    airspeed. Incidentally, the human eye perceives areas more than
+    absolute sizes, so the perceived “bigness” of the ball is
+    proportional to dynamic pressure. And it starts to “feel” much
+    larger at higher airspeeds, near cruise, which fits our earlier
+    observation about the importance of airspeed over AoA at cruise
+    flight. But note how we achieve this without a mode switch; it is
+    just a natural, seamless part of the analog feel of the
+    instrument.</p>
+
+    <p>We can add traditional speed, altitude and climb rate
+    tapes. These help with annotating V speeds and altitude station
+    keeping, respectively, and complete the picture to make this a
+    total primary VFR instrument.</p>
+
+    <p>We build the speed tape with higher speeds down rather than
+    up. This fits the intuition that diving, to reduce AoA, makes both
+    the ball and the speed tape (and, for that matter, the altitude
+    tape as well) move up relative to the instrument. Consistency is
+    key.</p>
+
+    <h2>Airball for Android</h2>
+
+    <p><em>Airball for Android</em> is an Android app that
+    demonstrates how Airball would work. It is not intended to be used
+    in an airplane, though we have managed to patch an Android device
+    to the RS-232 output from a <a
+     href="http://www.dynonavionics.com/">Dynon Avionics</a> setup to
+    use it in-flight. It can, however, be hooked up to X-Plane in a
+    number of ways, which is our recommended way to demonstrate
+    it.</p>
+
+    <h2>Basic operation</h2>
+
+    <p>Airball for Android has two view modes, a Full PFD view, which
+    locks orientation to Landscape mode, and an Analog only view,
+    which locks orientation to Portrait.</p>
+
+    <p class="figure">
+      <img height="150px" src="figures/airball-pfd.png">
+      &nbsp;
+      &nbsp;
+      <img height="150px" src="figures/airball-analog.png">
+    </p>
+
+    <p>In either case, touching the display brings up the Settings view:</p>
+
+    <p class="figure">
+      <img height="450px" src="figures/airball-settings.png">
+    </p>
+
+    <p>and the <strong>Return to display</strong> button returns to
+    the currently selected display mode.</p>
+
+    <h2>Interpretation</h2>
+
+    <p>The PFD is divided into the following sections:</p>
+
+    <p class="figure">
+      <img height="300px" src="figures/airball-sections.png">
+    </p>
+
+    <p><strong>IAS:</strong> Shows indicated airspeed according to the
+    usual conventions. Note higher speeds are “down” since this
+    provides a more consistent motion of the display elements in
+    response to stick-up or stick-down input.</p>
+
+    <p><strong>airball:</strong> Shows the airball, which we describe below.</p>
+
+    <p><strong>altitude:</strong> Shows altitude in feet according to
+    the usual conventions.</p>
+
+    <p><strong>vertical speed:</strong> Shows vertical speed in
+    feet/minute according to the usual conventions; the small
+    graduations are at 500-foot intervals and the large, numbered
+    graduations read in thousands of feet/minute.</p>
+
+    <p>The airball is interpreted the same whether in PFD or Analog
+    mode. We use the Analog mode display to describe operation of the
+    airball section:</p>
+
+    <p class="figure">
+      <img height="450px" src="figures/airball-nomenclature.png">
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      <img height="450px" src="figures/airball-interpretation.png">
+    </p>
+
+    <p>The blue ball moves to indicate values of AoA and yaw. It
+    always moves to the direction the relative wind is coming from
+    relative to the aircraft. Larger angles of attack are represented
+    by the ball moving lower. In this sense, the “kick the ball”
+    convention to correct yaw works as usual.</p>
+
+    <p>The diameter of the ball is proportional to IAS. Usefully, as a
+    result, its area (which human eyes perceive) is therefore
+    proportional to dynamic pressure, which is in turn the quantity
+    that is linearly proportional to lift.</p>
+
+    <h2>Settings</h2>
+
+    <p><strong>View type:</strong> Selects Full PFD or Analog only as
+    described above.</p>
+
+    <p><strong>Data source:</strong> Selects between:</p>
+
+    <blockquote>
+
+      <p><strong>Dummy data from accelerometer:</strong> Move the
+      device around to simulate flying and watch the display
+      change.</p>
+
+      <p><strong>Constant data for UI testing:</strong> A constant
+      snapshot of data.</p>
+
+      <p><strong>Dynon Skyview data over Bluetooth:</strong> Experimental, unused.</p>
+
+      <p><strong>X-Plane data over IP:</strong> Sync airdata to
+      running instance of X-Plane, described below.</p>
+
+    </blockquote>
+
+    <p><strong>X-Plane IP port to listen on:</strong> The local IP
+    port used for X-Plane integration, described below.</p>
+
+    <p><strong>X-Plane data protocol:</strong> Selects TCP or UDP as the
+    protocol for receiving X-Plane data, as described below.</p>
+
+    <p><strong>α minimum:</strong> The minimum AoA expected to be
+    shown, corresponding to a position 10% of the way down from the
+    top of the display.</p>
+
+    <p><strong>αy:</strong> The best climb rate AoA.</p>
+
+    <p><strong>αx:</strong> The best climb angle AoA.</p>
+
+    <p><strong>α ref:</strong> The recommended landing final approach
+    AoA.</p>
+
+    <p><strong>α stall:</strong> The stall AoA, αCRIT.</p>
+
+    <p><strong>β full scale:</strong> The full scale sideslip angle
+    expected for the current aircraft.</p>
+
+    <p><strong>Vs0, Vs1, Vfe, Vno, Vne:</strong> The standard “arc”
+    speeds on the ASI, for the current aircraft.</p>
+
+    <h2>X-Plane integration</h2>
+
+    <p>The primary intention for this release of Airball is to allow
+    users to experiment with it in conjunction with <a
+     href="http://x-plane.com">X-Plane</a>. These instructions were
+    written for X-Plane 10, but may be valid for older versions as
+    well.</p>
+
+    <p>We recommend that you use X-Plane’s <em>Plane Maker</em> to remove the
+    primary flight instruments from the airplane model you are using
+    (make a backup copy of the airplane folder first). This way, you
+    will be able to truly get a feeling for what it’s like to fly with
+    Airball.</p>
+
+    <p>X-Plane will send data packets out over UDP to any
+    host. Specific data sets may be turned on or off.</p>
+
+    <p>To enable the correct data sets for Airball, in X-Plane, go to
+    the menu <strong>Settings | Data Input and Output</strong> and
+    select the <strong>Data Set</strong> tab of the <strong>Data Input
+    and Output screen</strong>:</p>
+
+    <p class="figure">
+      <img height="600px" src="figures/data_input_and_output.png">
+    </p>
+
+    <p>Ensure that data sets <strong>3, 4, 18 and 20</strong> are
+    selected for <strong>internet</strong> output. In the <strong>UDP
+    rate</strong> selector, select a rate between <strong>5.0</strong>
+    and <strong>10.0</strong> updates / second.</p>
+
+    <p>Now go to the menu <strong>Settings | Net Connections</strong>
+    and select the <strong>Data</strong> tab of the <strong>Net
+    Connections</strong> screen:
+
+    <p class="figure">
+      <img height="600px" src="figures/net_connections.png">
+    </p>
+
+    <p>Ensure that <strong>IP of data receiver</strong> is checked and
+    enter the IP address and port number of the data receiver as
+    required. This information will be different depending on the
+    method whereby you integrate with X-Plane.</p>
+
+   <p>The integration methods are shown diagrammatically below:</p>
+
+    <p class="figure">
+      <img height="600px" src="figures/xplane_to_airball.png">
+    </p>
+
+    <p>Choose Method A if both your computer and your Android device
+    are on the same LAN (typically Wi-Fi) and the LAN allows hosts to
+    address and send IP packets to one another directly.<p>
+
+    <p>Choose Method B (which requires more setup) only if you do not
+    have access to a LAN meeting these specifications.</p>
+
+    <h3>Method A: Direct network communication</h3>
+
+   <p>Find out the IP address of the Android device on your LAN. This
+   is typically found from the Android Settings screens:</p>
+
+    <p class="figure">
+      <img height="450px" src="figures/settings.png">
+      &nbsp;
+      &nbsp;
+      <img height="450px" src="figures/settings-wifi.png">
+      &nbsp;
+      &nbsp;
+      <img height="450px" src="figures/settings-wifi-details.png">
+    </p>
+
+    <p>In the X-Plane <strong>Net Connections</strong> screen
+    (described above), enter that IP address as <strong>IP of data
+    receiver</strong>, and enter a suitable port number (we use
+    <strong>50000</strong>).</p>
+
+    <p>In the Airball settings, ensure that:</p>
+
+    <blockquote>
+
+      <p><strong>Data source</strong> is <strong>X-Plane data over IP</strong></p>
+      <p><strong>X-Plane IP port to listen on</strong> is the port you selected, such as 50000</p>
+      <p><strong>X-Plane data protocol</strong> is <strong>UDP</strong></p>
+
+    </blockquote>
+
+    <p>When you run X-Plane, you should see the flight data on the Airball display.</p>
+
+    <h3>Method B: Bridging through USB data connection</h3>
+
+    <p>Set up your Airball settings as with Method A, except ensure that:</p>
+
+    <blockquote>
+
+      <p><strong>X-Plane data protocol</strong> is
+      <strong>TCP</strong></p>
+
+    </blockquote>
+
+    <p>Now ensure your Android device is connected to your computer
+    and is set up for USB debugging via the adb utility. We do not
+    describe here how to do that; please consult common resources on
+    Android programming to learn how to do so.</p>
+
+    <p>In the X-Plane <strong>Net Connections</strong> screen
+    (described above), enter the localhost IP address (127.0.0.1) as
+    <strong>IP of data receiver</strong>, and enter some new port
+    number (we use 49998). This will send UDP messages to the local
+    host, accomplishing the first “hop” in the diagram above.
+
+    <p>Now run the accompanying Python utility <code>udp2tcp.py</code>
+    to listen on that same UDP port and echo the packets to a TCP
+    port. We pick <strong>49999</strong> for the TCP port. If you make
+    the same choice, you would issue a command like:</p>
+
+    <blockquote>
+      <p><code>./udp2tcp 49998 49999</code></p>
+    </blockquote>
+
+    <p>Now, set up the Android <code>adb</code> utility to forward the
+    local TCP port to a virtual port on the Android device. Assuming
+    you chose 50000 as the port on the Android device (as selected in
+    the Airball settings), you would issue:</p>
+
+    <blockquote>
+      <p><code>adb forward tcp:49999 tcp:50000</code></p>
+    </blockquote>
+
+    <p>This should complete the necessary connections and you should
+    see the flight data on the Airball display.</p>
+
+  </body>
+
+</html>
