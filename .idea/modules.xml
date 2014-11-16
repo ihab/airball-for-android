@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AirballBase/AirballBase.iml" filepath="$PROJECT_DIR$/AirballBase/AirballBase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AirballBaseTest/AirballBaseTest.iml" filepath="$PROJECT_DIR$/AirballBaseTest/AirballBaseTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AirballDataProxy/AirballDataProxy.iml" filepath="$PROJECT_DIR$/AirballDataProxy/AirballDataProxy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AirballPhone/AirballPhone.iml" filepath="$PROJECT_DIR$/AirballPhone/AirballPhone.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DynonSkyviewFormat/DynonSkyviewFormat.iml" filepath="$PROJECT_DIR$/DynonSkyviewFormat/DynonSkyviewFormat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DynonSkyviewFormatTest/DynonSkyviewFormatTest.iml" filepath="$PROJECT_DIR$/DynonSkyviewFormatTest/DynonSkyviewFormatTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TestBluetoothClientServer/TestBluetoothClientServer.iml" filepath="$PROJECT_DIR$/TestBluetoothClientServer/TestBluetoothClientServer.iml" />
+    </modules>
+  </component>
+</project>
+

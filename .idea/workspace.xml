@@ -1,0 +1,1372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidConfiguredLogFilters">
+    <filters>
+      <filter>
+        <option name="name" value="app: com.google.airball.phone" />
+        <option name="packageNamePattern" value="com.google.airball.phone" />
+      </filter>
+    </filters>
+  </component>
+  <component name="AndroidLayoutPreviewToolWindow">
+    <option name="state">
+      <GlobalState>
+        <option name="visible" value="false" />
+      </GlobalState>
+    </option>
+  </component>
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="app: com.google.airball.phone" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c8f25462-a1f1-4667-a69e-41cf70ee2e57" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/AirballBase/src/com/google/airball/airdata/AccelerometerFlightData.java" afterPath="$PROJECT_DIR$/AirballBase/src/org/schmivits/airball/airdata/AccelerometerFlightData.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/AirballBase/src/com/google/airball/airdata/Aircraft.java" afterPath="$PROJECT_DIR$/AirballBase/src/org/schmivits/airball/airdata/Aircraft.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/AirballBase/src/com/google/airball/airdata/Airdata.java" afterPath="$PROJECT_DIR$/AirballBase/src/org/schmivits/airball/airdata/Airdata.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/AirballBase/src/com/google/airball/airdata/AltitudeModel.java" afterPath="$PROJECT_DIR$/AirballBase/src/org/schmivits/airball/airdata/AltitudeModel.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/AirballBase/src/com/google/airball/airdata/BetaModel.java" afterPath="$PROJECT_DIR$/AirballBase/src/org/schmivits/airball/airdata/BetaModel.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/AirballBase/src/com/google/airball/airdata/ConstantFlightData.java" afterPath="$PROJECT_DIR$/AirballBase/src/org/schmivits/airball/airdata/ConstantFlightData.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/AirballBase/src/com/google/airball/airdata/Constants.java" afterPath="$PROJECT_DIR$/AirballBase/src/org/schmivits/airball/airdata/Constants.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/AirballBase/src/com/google/airball/airdata/DataScanThread.java" afterPath="$PROJECT_DIR$/AirballBase/src/org/schmivits/airball/airdata/DataScanThread.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/AirballBase/src/com/google/airball/airdata/DynonSerialFlightData.java" afterPath="$PROJECT_DIR$/AirballBase/src/org/schmivits/airball/airdata/DynonSerialFlightData.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/AirballBase/src/com/google/airball/airdata/FlightData.java" afterPath="$PROJECT_DIR$/AirballBase/src/org/schmivits/airball/airdata/FlightData.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/AirballBase/src/com/google/airball/airdata/N42PEAircraft.java" afterPath="$PROJECT_DIR$/AirballBase/src/org/schmivits/airball/airdata/N42PEAircraft.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/AirballBase/src/com/google/airball/airdata/N42PEFlightData.java" afterPath="$PROJECT_DIR$/AirballBase/src/org/schmivits/airball/airdata/N42PEFlightData.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/AirballBase/src/com/google/airball/airdata/NetworkListener.java" afterPath="$PROJECT_DIR$/AirballBase/src/org/schmivits/airball/airdata/NetworkListener.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/AirballBase/src/com/google/airball/airdata/NonBlockingLineReader.java" afterPath="$PROJECT_DIR$/AirballBase/src/org/schmivits/airball/airdata/NonBlockingLineReader.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/AirballBase/src/com/google/airball/airdata/TcpListener.java" afterPath="$PROJECT_DIR$/AirballBase/src/org/schmivits/airball/airdata/TcpListener.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/AirballBase/src/com/google/airball/airdata/UdpListener.java" afterPath="$PROJECT_DIR$/AirballBase/src/org/schmivits/airball/airdata/UdpListener.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/AirballBase/src/com/google/airball/airdata/UpdateSource.java" afterPath="$PROJECT_DIR$/AirballBase/src/org/schmivits/airball/airdata/UpdateSource.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/AirballBase/src/com/google/airball/airdata/UpdateSourceHelper.java" afterPath="$PROJECT_DIR$/AirballBase/src/org/schmivits/airball/airdata/UpdateSourceHelper.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/AirballBase/src/com/google/airball/airdata/XPlaneNetworkFlightData.java" afterPath="$PROJECT_DIR$/AirballBase/src/org/schmivits/airball/airdata/XPlaneNetworkFlightData.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/AirballBase/src/com/google/airball/airdata/XPlanePacketInterpreter.java" afterPath="$PROJECT_DIR$/AirballBase/src/org/schmivits/airball/airdata/XPlanePacketInterpreter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/AirballBase/src/com/google/airball/airdata/altitude-model-chart.png" afterPath="$PROJECT_DIR$/AirballBase/src/org/schmivits/airball/airdata/altitude-model-chart.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/AirballBase/src/com/google/airball/airdata/beta-model-equations.png" afterPath="$PROJECT_DIR$/AirballBase/src/org/schmivits/airball/airdata/beta-model-equations.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/AirballBase/src/com/google/airball/airdata/beta-model-equations.txt" afterPath="$PROJECT_DIR$/AirballBase/src/org/schmivits/airball/airdata/beta-model-equations.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/AirballBase/src/com/google/airball/display/AirballAnalog.java" afterPath="$PROJECT_DIR$/AirballBase/src/org/schmivits/airball/display/AirballAnalog.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/AirballBase/src/com/google/airball/display/AirballPFD.java" afterPath="$PROJECT_DIR$/AirballBase/src/org/schmivits/airball/display/AirballPFD.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/AirballBase/src/com/google/airball/display/DisplayConfiguration.java" afterPath="$PROJECT_DIR$/AirballBase/src/org/schmivits/airball/display/DisplayConfiguration.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/AirballBase/src/com/google/airball/display/airball/Airball.java" afterPath="$PROJECT_DIR$/AirballBase/src/org/schmivits/airball/display/airball/Airball.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/AirballBase/src/com/google/airball/display/airball/AirballCore.java" afterPath="$PROJECT_DIR$/AirballBase/src/org/schmivits/airball/display/airball/AirballCore.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/AirballBase/src/com/google/airball/display/airball/AirballHeartCore.java" afterPath="$PROJECT_DIR$/AirballBase/src/org/schmivits/airball/display/airball/AirballHeartCore.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/AirballBase/src/com/google/airball/display/airball/AlphaBarrier.java" afterPath="$PROJECT_DIR$/AirballBase/src/org/schmivits/airball/display/airball/AlphaBarrier.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/AirballBase/src/com/google/airball/display/airball/AlphaX.java" afterPath="$PROJECT_DIR$/AirballBase/src/org/schmivits/airball/display/airball/AlphaX.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/AirballBase/src/com/google/airball/display/airball/AlphaY.java" afterPath="$PROJECT_DIR$/AirballBase/src/org/schmivits/airball/display/airball/AlphaY.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/AirballBase/src/com/google/airball/display/airball/LandingReference.java" afterPath="$PROJECT_DIR$/AirballBase/src/org/schmivits/airball/display/airball/LandingReference.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/AirballBase/src/com/google/airball/display/airball/Scaling.java" afterPath="$PROJECT_DIR$/AirballBase/src/org/schmivits/airball/display/airball/Scaling.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/AirballBase/src/com/google/airball/display/airball/SpeedTooSmallAirball.java" afterPath="$PROJECT_DIR$/AirballBase/src/org/schmivits/airball/display/airball/SpeedTooSmallAirball.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/AirballBase/src/com/google/airball/display/airball/TotemPole.java" afterPath="$PROJECT_DIR$/AirballBase/src/org/schmivits/airball/display/airball/TotemPole.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/AirballBase/src/com/google/airball/display/airball/TotemPoleDecoration.java" afterPath="$PROJECT_DIR$/AirballBase/src/org/schmivits/airball/display/airball/TotemPoleDecoration.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/AirballBase/src/com/google/airball/display/altitude/AltitudeTape.java" afterPath="$PROJECT_DIR$/AirballBase/src/org/schmivits/airball/display/altitude/AltitudeTape.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/AirballBase/src/com/google/airball/display/altitude/AltitudeTapeCore.java" afterPath="$PROJECT_DIR$/AirballBase/src/org/schmivits/airball/display/altitude/AltitudeTapeCore.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/AirballBase/src/com/google/airball/display/climbrate/ClimbRateTape.java" afterPath="$PROJECT_DIR$/AirballBase/src/org/schmivits/airball/display/climbrate/ClimbRateTape.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/AirballBase/src/com/google/airball/display/climbrate/ClimbRateTapeCore.java" afterPath="$PROJECT_DIR$/AirballBase/src/org/schmivits/airball/display/climbrate/ClimbRateTapeCore.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/AirballBase/src/com/google/airball/display/speed/SpeedTape.java" afterPath="$PROJECT_DIR$/AirballBase/src/org/schmivits/airball/display/speed/SpeedTape.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/AirballBase/src/com/google/airball/display/speed/SpeedTapeCore.java" afterPath="$PROJECT_DIR$/AirballBase/src/org/schmivits/airball/display/speed/SpeedTapeCore.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/AirballBase/src/com/google/airball/util/MathUtils.java" afterPath="$PROJECT_DIR$/AirballBase/src/org/schmivits/airball/util/MathUtils.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/AirballBase/src/com/google/airball/util/ValueModel.java" afterPath="$PROJECT_DIR$/AirballBase/src/org/schmivits/airball/util/ValueModel.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/AirballBase/src/com/google/airball/widget/Container.java" afterPath="$PROJECT_DIR$/AirballBase/src/org/schmivits/airball/widget/Container.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/AirballBase/src/com/google/airball/widget/FilledPolygon.java" afterPath="$PROJECT_DIR$/AirballBase/src/org/schmivits/airball/widget/FilledPolygon.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/AirballBase/src/com/google/airball/widget/Rectangle.java" afterPath="$PROJECT_DIR$/AirballBase/src/org/schmivits/airball/widget/Rectangle.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/AirballBase/src/com/google/airball/widget/SingleImage.java" afterPath="$PROJECT_DIR$/AirballBase/src/org/schmivits/airball/widget/SingleImage.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/AirballBase/src/com/google/airball/widget/StrokedPolygon.java" afterPath="$PROJECT_DIR$/AirballBase/src/org/schmivits/airball/widget/StrokedPolygon.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/AirballBase/src/com/google/airball/widget/Text.java" afterPath="$PROJECT_DIR$/AirballBase/src/org/schmivits/airball/widget/Text.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/AirballBase/src/com/google/airball/widget/TiledImage.java" afterPath="$PROJECT_DIR$/AirballBase/src/org/schmivits/airball/widget/TiledImage.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/AirballBase/src/com/google/airball/widget/Widget.java" afterPath="$PROJECT_DIR$/AirballBase/src/org/schmivits/airball/widget/Widget.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/AirballBaseTest/src/com/google/airball/airdata/BetaModelTest.java" afterPath="$PROJECT_DIR$/AirballBaseTest/src/org/schmivits/airball/airdata/BetaModelTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/AirballDataProxy/src/com/google/airball/dataproxy/MainActivity.java" afterPath="$PROJECT_DIR$/AirballDataProxy/src/org/schmivits/airball/dataproxy/MainActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/AirballDataProxy/src/com/google/airball/dataproxy/data/AbstractProcess.java" afterPath="$PROJECT_DIR$/AirballDataProxy/src/org/schmivits/airball/dataproxy/data/AbstractProcess.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/AirballDataProxy/src/com/google/airball/dataproxy/data/ActualDataSourceStream.java" afterPath="$PROJECT_DIR$/AirballDataProxy/src/org/schmivits/airball/dataproxy/data/ActualDataSourceStream.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/AirballDataProxy/src/com/google/airball/dataproxy/data/AirballActualServer.java" afterPath="$PROJECT_DIR$/AirballDataProxy/src/org/schmivits/airball/dataproxy/data/AirballActualServer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/AirballDataProxy/src/com/google/airball/dataproxy/data/AirballDummyServer.java" afterPath="$PROJECT_DIR$/AirballDataProxy/src/org/schmivits/airball/dataproxy/data/AirballDummyServer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/AirballDataProxy/src/com/google/airball/dataproxy/data/AirballServer.java" afterPath="$PROJECT_DIR$/AirballDataProxy/src/org/schmivits/airball/dataproxy/data/AirballServer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/AirballDataProxy/src/com/google/airball/dataproxy/data/ConcurrentProcess.java" afterPath="$PROJECT_DIR$/AirballDataProxy/src/org/schmivits/airball/dataproxy/data/ConcurrentProcess.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/AirballDataProxy/src/com/google/airball/dataproxy/data/Constants.java" afterPath="$PROJECT_DIR$/AirballDataProxy/src/org/schmivits/airball/dataproxy/data/Constants.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/AirballDataProxy/src/com/google/airball/dataproxy/data/DataServant.java" afterPath="$PROJECT_DIR$/AirballDataProxy/src/org/schmivits/airball/dataproxy/data/DataServant.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/AirballDataProxy/src/com/google/airball/dataproxy/data/DataSourceStream.java" afterPath="$PROJECT_DIR$/AirballDataProxy/src/org/schmivits/airball/dataproxy/data/DataSourceStream.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/AirballDataProxy/src/com/google/airball/dataproxy/data/DummyDataSourceStream.java" afterPath="$PROJECT_DIR$/AirballDataProxy/src/org/schmivits/airball/dataproxy/data/DummyDataSourceStream.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/AirballDataProxy/src/com/google/airball/dataproxy/data/ProcessNode.java" afterPath="$PROJECT_DIR$/AirballDataProxy/src/org/schmivits/airball/dataproxy/data/ProcessNode.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/AirballDataProxy/src/com/google/airball/dataproxy/data/RootNode.java" afterPath="$PROJECT_DIR$/AirballDataProxy/src/org/schmivits/airball/dataproxy/data/RootNode.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/AirballDataProxy/src/com/google/airball/dataproxy/data/RpcStates.java" afterPath="$PROJECT_DIR$/AirballDataProxy/src/org/schmivits/airball/dataproxy/data/RpcStates.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/AirballDataProxy/src/com/google/airball/dataproxy/view/ActualDataSourceStreamView.java" afterPath="$PROJECT_DIR$/AirballDataProxy/src/org/schmivits/airball/dataproxy/view/ActualDataSourceStreamView.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/AirballDataProxy/src/com/google/airball/dataproxy/view/ProcessNodeView.java" afterPath="$PROJECT_DIR$/AirballDataProxy/src/org/schmivits/airball/dataproxy/view/ProcessNodeView.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/AirballDataProxy/src/com/google/airball/dataproxy/view/ProcessNodeViewFactory.java" afterPath="$PROJECT_DIR$/AirballDataProxy/src/org/schmivits/airball/dataproxy/view/ProcessNodeViewFactory.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/AirballPhone/src/com/google/airball/phone/AirballActivity.java" afterPath="$PROJECT_DIR$/AirballPhone/src/org/schmivits/airball/phone/AirballActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/AirballPhone/src/com/google/airball/phone/AirballAnalogActivity.java" afterPath="$PROJECT_DIR$/AirballPhone/src/org/schmivits/airball/phone/AirballAnalogActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/AirballPhone/src/com/google/airball/phone/AirballPFDActivity.java" afterPath="$PROJECT_DIR$/AirballPhone/src/org/schmivits/airball/phone/AirballPFDActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/AirballPhone/src/com/google/airball/phone/AirballView.java" afterPath="$PROJECT_DIR$/AirballPhone/src/org/schmivits/airball/phone/AirballView.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/AirballPhone/src/com/google/airball/phone/PreferencesActivity.java" afterPath="$PROJECT_DIR$/AirballPhone/src/org/schmivits/airball/phone/PreferencesActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/AirballPhone/src/com/google/airball/phone/Prefs.java" afterPath="$PROJECT_DIR$/AirballPhone/src/org/schmivits/airball/phone/Prefs.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/AirballPhone/src/com/google/airball/phone/StartViewActivity.java" afterPath="$PROJECT_DIR$/AirballPhone/src/org/schmivits/airball/phone/StartViewActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/DynonSkyviewFormat/src/com/google/dynonskyview/ADAHRSDataBlock.java" afterPath="$PROJECT_DIR$/DynonSkyviewFormat/src/org/schmivits/dynonskyview/ADAHRSDataBlock.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/DynonSkyviewFormat/src/com/google/dynonskyview/DummyFlightData.java" afterPath="$PROJECT_DIR$/DynonSkyviewFormat/src/org/schmivits/dynonskyview/DummyFlightData.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/DynonSkyviewFormat/src/com/google/dynonskyview/DynonSerialFormat.java" afterPath="$PROJECT_DIR$/DynonSkyviewFormat/src/org/schmivits/dynonskyview/DynonSerialFormat.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/DynonSkyviewFormatTest/src/com/google/dynonskyview/FormatTest.java" afterPath="$PROJECT_DIR$/DynonSkyviewFormatTest/src/org/schmivits/dynonskyview/FormatTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/DynonSkyviewFormatTest/src/com/google/dynonskyview/dynon-capture.txt" afterPath="$PROJECT_DIR$/DynonSkyviewFormatTest/src/org/schmivits/dynonskyview/dynon-capture.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/DynonSkyviewFormatTest/src/com/google/dynonskyview/dynon-one-line-decode.txt" afterPath="$PROJECT_DIR$/DynonSkyviewFormatTest/src/org/schmivits/dynonskyview/dynon-one-line-decode.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/TestBluetoothClientServer/src/com/example/testbluetoothclientserver/ActualDataSourceStream.java" afterPath="$PROJECT_DIR$/TestBluetoothClientServer/src/org/schmivits/testbluetoothclientserver/ActualDataSourceStream.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/TestBluetoothClientServer/src/com/example/testbluetoothclientserver/AirballDataSender.java" afterPath="$PROJECT_DIR$/TestBluetoothClientServer/src/org/schmivits/testbluetoothclientserver/AirballDataSender.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/TestBluetoothClientServer/src/com/example/testbluetoothclientserver/AirballListener.java" afterPath="$PROJECT_DIR$/TestBluetoothClientServer/src/org/schmivits/testbluetoothclientserver/AirballListener.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/TestBluetoothClientServer/src/com/example/testbluetoothclientserver/AirballServer.java" afterPath="$PROJECT_DIR$/TestBluetoothClientServer/src/org/schmivits/testbluetoothclientserver/AirballServer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/TestBluetoothClientServer/src/com/example/testbluetoothclientserver/AirballServerFinder.java" afterPath="$PROJECT_DIR$/TestBluetoothClientServer/src/org/schmivits/testbluetoothclientserver/AirballServerFinder.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/TestBluetoothClientServer/src/com/example/testbluetoothclientserver/DataServant.java" afterPath="$PROJECT_DIR$/TestBluetoothClientServer/src/org/schmivits/testbluetoothclientserver/DataServant.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/TestBluetoothClientServer/src/com/example/testbluetoothclientserver/DataServer.java" afterPath="$PROJECT_DIR$/TestBluetoothClientServer/src/org/schmivits/testbluetoothclientserver/DataServer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/TestBluetoothClientServer/src/com/example/testbluetoothclientserver/DataSourceStream.java" afterPath="$PROJECT_DIR$/TestBluetoothClientServer/src/org/schmivits/testbluetoothclientserver/DataSourceStream.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/TestBluetoothClientServer/src/com/example/testbluetoothclientserver/DummyDataSourceStream.java" afterPath="$PROJECT_DIR$/TestBluetoothClientServer/src/org/schmivits/testbluetoothclientserver/DummyDataSourceStream.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/TestBluetoothClientServer/src/com/example/testbluetoothclientserver/Lifecycle.java" afterPath="$PROJECT_DIR$/TestBluetoothClientServer/src/org/schmivits/testbluetoothclientserver/Lifecycle.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/TestBluetoothClientServer/src/com/example/testbluetoothclientserver/MainActivity.java" afterPath="$PROJECT_DIR$/TestBluetoothClientServer/src/org/schmivits/testbluetoothclientserver/MainActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/TestBluetoothClientServer/src/com/example/testbluetoothclientserver/RpcStates.java" afterPath="$PROJECT_DIR$/TestBluetoothClientServer/src/org/schmivits/testbluetoothclientserver/RpcStates.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/TestBluetoothClientServer/src/com/example/testbluetoothclientserver/RpcThread.java" afterPath="$PROJECT_DIR$/TestBluetoothClientServer/src/org/schmivits/testbluetoothclientserver/RpcThread.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AirballBase/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AirballBase/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AirballBaseTest/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AirballBaseTest/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AirballDataProxy/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AirballDataProxy/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AirballPhone/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AirballPhone/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DynonSkyviewFormat/AndroidManifest.xml" afterPath="$PROJECT_DIR$/DynonSkyviewFormat/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DynonSkyviewFormatTest/AndroidManifest.xml" afterPath="$PROJECT_DIR$/DynonSkyviewFormatTest/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestBluetoothClientServer/AndroidManifest.xml" afterPath="$PROJECT_DIR$/TestBluetoothClientServer/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AirballPhone/res/layout/airball.xml" afterPath="$PROJECT_DIR$/AirballPhone/res/layout/airball.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AirballPhone/res/layout/preferences.xml" afterPath="$PROJECT_DIR$/AirballPhone/res/layout/preferences.xml" />
+    </list>
+    <ignored path="airballGit.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="false" show_ignored="false" />
+  <component name="Commander">
+    <leftPanel />
+    <rightPanel />
+    <splitter proportion="0.5" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="DebuggerManager">
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true" converted="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <breakpoint_rules converted="true" />
+    <ui_properties converted="true" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="airballGit" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="TotemPole.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AirballBase/src/org/schmivits/airball/display/airball/TotemPole.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="570" max-vertical-offset="1275">
+              <caret line="38" column="48" selection-start-line="38" selection-start-column="48" selection-end-line="38" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TcpListener.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AirballBase/src/org/schmivits/airball/airdata/TcpListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="200" max-vertical-offset="1050">
+              <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AirballBase/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
+              <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AirballBaseTest/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+              <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AirballDataProxy/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
+              <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AirballPhone/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795">
+              <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DynonSkyviewFormat/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+              <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DynonSkyviewFormatTest/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
+              <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TestBluetoothClientServer/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.4368932" vertical-offset="0" max-vertical-offset="1030">
+              <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+              <folding>
+                <element signature="e#758#776#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="KEY_STORE_PATH" value="$PROJECT_DIR$/../keyStore" />
+    <option name="KEY_ALIAS" value="AirballKey" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/AirballBase/src/com/google/airball/display/AltitudeTape.java" />
+        <option value="$PROJECT_DIR$/AirballBase/src/com/google/airball/display/AltitudeTapeCore.java" />
+        <option value="$PROJECT_DIR$/AirballBase/src/com/google/airball/display/ClimbRateTapeCore.java" />
+        <option value="$PROJECT_DIR$/AirballBase/src/com/google/airball/display/SpeedTape.java" />
+        <option value="$PROJECT_DIR$/AirballBase/src/com/google/airball/display/SpeedTapeCore.java" />
+        <option value="$PROJECT_DIR$/AirballBase/src/com/google/airball/display/ClimbRateTape.java" />
+        <option value="$PROJECT_DIR$/AirballBase/src/com/google/airball/display/Airball.java" />
+        <option value="$PROJECT_DIR$/AirballBase/src/com/google/airball/display/airball/SpeedTooSmallAirball.java" />
+        <option value="$PROJECT_DIR$/AirballBase/src/com/google/airball/display/airball/AirballCore.java" />
+        <option value="$PROJECT_DIR$/AirballBase/src/com/google/airball/display/DisplayConfiguration.java" />
+        <option value="$PROJECT_DIR$/AirballBase/src/com/google/airball/display/airball/AirballHeartCore.java" />
+        <option value="$PROJECT_DIR$/AirballBase/src/com/google/airball/widget/FilledPolygon.java" />
+        <option value="$PROJECT_DIR$/AirballBase/src/com/google/airball/widget/Rectangle.java" />
+        <option value="$PROJECT_DIR$/AirballBase/src/com/google/airball/widget/SingleImage.java" />
+        <option value="$PROJECT_DIR$/AirballBase/src/com/google/airball/widget/StrokedPolygon.java" />
+        <option value="$PROJECT_DIR$/AirballBase/src/com/google/airball/widget/Text.java" />
+        <option value="$PROJECT_DIR$/AirballBase/src/com/google/airball/widget/TiledImage.java" />
+        <option value="$PROJECT_DIR$/AirballBase/src/com/google/airball/display/AirballPFD.java" />
+        <option value="$PROJECT_DIR$/AirballBase/src/com/google/airball/display/AirballAnalog.java" />
+        <option value="$PROJECT_DIR$/AirballBase/src/com/google/airball/display/speed/SpeedTape.java" />
+        <option value="$PROJECT_DIR$/AirballBase/src/com/google/airball/widget/Widget.java" />
+        <option value="$PROJECT_DIR$/AirballBase/src/com/google/airball/display/climbrate/ClimbRateTape.java" />
+        <option value="$PROJECT_DIR$/AirballBase/src/com/google/airball/display/altitude/AltitudeTapeCore.java" />
+        <option value="$PROJECT_DIR$/AirballBase/src/com/google/airball/display/climbrate/ClimbRateTapeCore.java" />
+        <option value="$PROJECT_DIR$/AirballBase/src/com/google/airball/display/speed/SpeedTapeCore.java" />
+        <option value="$PROJECT_DIR$/AirballBase/src/com/google/airball/display/altitude/AltitudeTape.java" />
+        <option value="$PROJECT_DIR$/AirballBase/src/com/google/airball/widget/Container.java" />
+        <option value="$PROJECT_DIR$/AirballBase/src/com/google/airball/airdata/Aircraft.java" />
+        <option value="$PROJECT_DIR$/AirballBase/src/com/google/airball/display/airball/Scaling.java" />
+        <option value="$PROJECT_DIR$/AirballBase/src/com/google/airball/airdata/N42PEAircraft.java" />
+        <option value="$PROJECT_DIR$/AirballPhone/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/AirballPhone/src/com/google/airball/phone/AirballActivity.java" />
+        <option value="$PROJECT_DIR$/AirballPhone/src/com/google/airball/phone/PreferencesActivity.java" />
+        <option value="$PROJECT_DIR$/AirballBase/src/com/google/airball/airdata/AccelerometerFlightData.java" />
+        <option value="$PROJECT_DIR$/AirballPhone/res/xml/preferences.xml" />
+        <option value="$PROJECT_DIR$/AirballBase/src/com/google/airball/airdata/XPlaneNetworkFlightData.java" />
+        <option value="$PROJECT_DIR$/AirballBase/src/com/google/airball/display/airball/AlphaBarrier.java" />
+        <option value="$PROJECT_DIR$/AirballBase/src/com/google/airball/display/airball/TotemPoleDecoration.java" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/AirballBase/src/com/google/airball/display/airball/Airball.java" />
+        <option value="$PROJECT_DIR$/AirballBase/src/com/google/airball/display/airball/LandingReference.java" />
+        <option value="$PROJECT_DIR$/AirballBase/src/com/google/airball/display/airball/AlphaX.java" />
+        <option value="$PROJECT_DIR$/AirballBase/src/com/google/airball/display/airball/AlphaY.java" />
+        <option value="$PROJECT_DIR$/AirballBase/src/com/google/airball/display/airball/TotemPole.java" />
+        <option value="$PROJECT_DIR$/AirballBase/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/AirballBaseTest/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/AirballDataProxy/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/AirballPhone/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/DynonSkyviewFormat/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/DynonSkyviewFormatTest/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/TestBluetoothClientServer/AndroidManifest.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="22" />
+    <option name="width" value="1920" />
+    <option name="height" value="1174" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Android Lint</id>
+          </State>
+          <State>
+            <id>Gradle</id>
+          </State>
+          <State>
+            <id>Probable bugsGradle</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Gradle</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="airballGit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="airballGit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestBluetoothClientServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="airballGit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestBluetoothClientServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="airballGit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DynonSkyviewFormatTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="airballGit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DynonSkyviewFormatTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="airballGit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DynonSkyviewFormat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="airballGit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DynonSkyviewFormat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dynonskyview" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="airballGit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AirballPhone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="airballGit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AirballPhone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="airballGit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AirballDataProxy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="airballGit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AirballDataProxy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="airballGit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AirballBaseTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="airballGit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AirballBaseTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="airdata" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.12616825" />
+    <property name="recentsLimit" value="5" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="options.lastSelected" value="vcs.Git" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="LayoutCode.rearrangeEntriesJava" value="false" />
+    <property name="DEBUGGABLE_DEVICE" value="015d1884224c1a19" />
+    <property name="DEBUGGABLE_PROCESS" value="com.google.airball.phone" />
+    <property name="SHOW_ALL_PROCESSES" value="true" />
+    <property name="LayoutCode.rearrangeEntriesXML" value="false" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="OverrideImplement.overriding.sorted" value="false" />
+    <property name="FullScreen" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="260" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="262" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="266" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="1060" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="260" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="262" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="266" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="1060" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+    <property name="ExportedModule" value="AirballPhone" />
+    <property name="ExportedApkPath" value="$PROJECT_DIR$/AirballPhone/AirballPhone.apk" />
+    <property name="AndroidRunProguardForReleaseBuild" value="true" />
+    <property name="AndroidProguardConfigPaths" value="$APPLICATION_HOME_DIR$/sdk/tools/proguard/proguard-android.txt:/Users/ihab/android/airballGit/AirballPhone/proguard-project.txt" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.google.airball.display.airball" />
+      <recent name="com.google.airball.airdata" />
+      <recent name="com.google.airball.phone" />
+      <recent name="com.google.airball.display" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/AirballPhone/res/layout" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.schmivits" />
+      <recent name="org.schmivits.testbluetoothclientserver" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Android Application.AirballPhone">
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="AirballPhone" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="USB_DEVICE" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="false" name="AirballPhone" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="AirballPhone" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="USB_DEVICE" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <RunnerSettings RunnerId="AndroidDebugRunner" />
+      <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Android Application.AirballPhone" />
+    </list>
+    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SliceManager">
+    <option name="analysisUIOptions">
+      <AnalysisUIOptions />
+    </option>
+  </component>
+  <component name="SvnConfiguration" myUseAcceleration="nothing">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c8f25462-a1f1-4667-a69e-41cf70ee2e57" name="Default" comment="" />
+      <created>1392494506632</created>
+      <updated>1392494506632</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Fixed bug in transition between activities --requesting&#10;screen orientations at run time led to infinite create / &#10;destroy cycles of the activity.&#10;&#10;Fixed bug in scale calculation logic for speed tape.&#10;&#10;Improved range of output for accelerometer&#10;flight data.&#10;">
+      <created>1392862933919</created>
+      <updated>1392862933919</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Made accelerometer flight data work better for portrait mode.&#10;&#10;Fixed a bug in clean startup where StartViewActivity would not&#10;find any valid settings.">
+      <created>1392877031071</created>
+      <updated>1392877031071</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Changed main display to include a &quot;totem pole&quot; of annotated AoA values rather than the previous &quot;cross&quot;,&#10;which did not really correlate to any important flight condition.">
+      <created>1393991286712</created>
+      <updated>1393991286712</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="22" width="1920" height="1174" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4226705" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986766" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2731569" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.53780717" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4168242" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986766" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32915717" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.45899773" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986766" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986832" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21618743" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32949087" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986766" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32995737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+    <MESSAGE value="Fixed bug in transition between activities --requesting&#10;screen orientations at run time led to infinite create / &#10;destroy cycles of the activity.&#10;&#10;Fixed bug in scale calculation logic for speed tape.&#10;&#10;Improved range of output for accelerometer&#10;flight data.&#10;" />
+    <MESSAGE value="Made accelerometer flight data work better for portrait mode.&#10;&#10;Fixed a bug in clean startup where StartViewActivity would not&#10;find any valid settings." />
+    <MESSAGE value="Changed main display to include a &quot;totem pole&quot; of annotated AoA values rather than the previous &quot;cross&quot;,&#10;which did not really correlate to any important flight condition." />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed main display to include a &quot;totem pole&quot; of annotated AoA values rather than the previous &quot;cross&quot;,&#10;which did not really correlate to any important flight condition." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/AirballBase/src/org/schmivits/airball/airdata/UdpListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="915">
+          <caret line="15" column="36" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AirballBase/src/org/schmivits/airball/airdata/UpdateSourceHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="465">
+          <caret line="5" column="13" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AirballBase/src/org/schmivits/airball/airdata/XPlanePacketInterpreter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="1290">
+          <caret line="14" column="8" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AirballPhone/src/org/schmivits/airball/phone/Prefs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="660">
+          <caret line="20" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AirballBase/src/org/schmivits/airball/display/DisplayConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.96" vertical-offset="56" max-vertical-offset="705">
+          <caret line="25" column="4" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AirballBase/src/org/schmivits/airball/widget/FilledPolygon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.0" vertical-offset="0" max-vertical-offset="690">
+          <caret line="10" column="4" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AirballBase/src/org/schmivits/airball/widget/Rectangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.8" vertical-offset="0" max-vertical-offset="345">
+          <caret line="8" column="4" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AirballBase/src/org/schmivits/airball/widget/SingleImage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.4" vertical-offset="0" max-vertical-offset="420">
+          <caret line="10" column="8" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AirballBase/src/org/schmivits/airball/widget/StrokedPolygon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.76" vertical-offset="111" max-vertical-offset="705">
+          <caret line="14" column="4" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AirballBase/src/org/schmivits/airball/widget/TiledImage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.0" vertical-offset="0" max-vertical-offset="420">
+          <caret line="10" column="8" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AirballBase/src/org/schmivits/airball/display/AirballAnalog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.6" vertical-offset="0" max-vertical-offset="615">
+          <caret line="19" column="8" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AirballPhone/src/org/schmivits/airball/phone/AirballView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1455" max-vertical-offset="1830">
+          <caret line="97" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AirballBase/src/org/schmivits/airball/display/AirballPFD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1275" max-vertical-offset="1710">
+          <caret line="85" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AirballBase/src/org/schmivits/airball/display/speed/SpeedTape.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1635" max-vertical-offset="1920">
+          <caret line="109" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AirballBase/src/org/schmivits/airball/display/climbrate/ClimbRateTape.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-22.2" vertical-offset="0" max-vertical-offset="825">
+          <caret line="50" column="4" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AirballBase/src/org/schmivits/airball/display/altitude/AltitudeTapeCore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.88" vertical-offset="703" max-vertical-offset="2055">
+          <caret line="72" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AirballBase/src/org/schmivits/airball/display/climbrate/ClimbRateTapeCore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.88" vertical-offset="268" max-vertical-offset="1560">
+          <caret line="47" column="4" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AirballBase/src/org/schmivits/airball/display/speed/SpeedTapeCore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-30.08" vertical-offset="328" max-vertical-offset="2220">
+          <caret line="81" column="2" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AirballBase/src/org/schmivits/airball/airdata/Aircraft.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.0" vertical-offset="0" max-vertical-offset="555">
+          <caret line="20" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AirballBase/src/org/schmivits/airball/airdata/N42PEAircraft.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-30.6" vertical-offset="0" max-vertical-offset="975">
+          <caret line="51" column="8" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AirballBase/src/org/schmivits/airball/widget/Container.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="675">
+          <caret line="29" column="30" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AirballPhone/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1815" max-vertical-offset="2460">
+          <caret line="121" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AirballPhone/src/org/schmivits/airball/phone/AirballActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1065" max-vertical-offset="1845">
+          <caret line="71" column="8" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AirballPhone/src/org/schmivits/airball/phone/PreferencesActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="645" max-vertical-offset="1740">
+          <caret line="43" column="41" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AirballBase/src/org/schmivits/airball/airdata/AccelerometerFlightData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2355" max-vertical-offset="3240">
+          <caret line="157" column="8" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AirballPhone/res/xml/preferences.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="585" max-vertical-offset="1785">
+          <caret line="42" column="8" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AirballBase/src/org/schmivits/airball/airdata/XPlaneNetworkFlightData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1139" max-vertical-offset="2190">
+          <caret line="121" column="13" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AirballBase/src/org/schmivits/airball/widget/Widget.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1365">
+          <caret line="37" column="8" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.4167852" vertical-offset="3405" max-vertical-offset="18135">
+          <caret line="20" column="13" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AirballBase/src/org/schmivits/airball/display/airball/Scaling.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="405">
+          <caret line="10" column="68" selection-start-line="10" selection-start-column="68" selection-end-line="10" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AirballBase/src/org/schmivits/airball/display/airball/SpeedTooSmallAirball.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="540">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AirballBase/src/org/schmivits/airball/widget/Text.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
+          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AirballBase/src/org/schmivits/airball/display/altitude/AltitudeTape.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="140" max-vertical-offset="1215">
+          <caret line="55" column="37" selection-start-line="55" selection-start-column="37" selection-end-line="55" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AirballBase/src/org/schmivits/airball/display/airball/TotemPoleDecoration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="405">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AirballBase/src/org/schmivits/airball/display/airball/AirballHeartCore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="570">
+          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AirballBase/src/org/schmivits/airball/display/airball/AlphaBarrier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="765">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AirballBase/src/org/schmivits/airball/display/airball/AirballCore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="600">
+          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AirballBase/src/org/schmivits/airball/display/airball/Airball.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1185" max-vertical-offset="2040">
+          <caret line="79" column="43" selection-start-line="79" selection-start-column="43" selection-end-line="79" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AirballBase/src/org/schmivits/airball/display/airball/LandingReference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
+          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AirballBase/src/org/schmivits/airball/display/airball/AlphaX.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="690">
+          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AirballBase/src/org/schmivits/airball/display/airball/AlphaY.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="705">
+          <caret line="13" column="48" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AirballBase/src/org/schmivits/airball/display/airball/TotemPole.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="570" max-vertical-offset="1275">
+          <caret line="38" column="48" selection-start-line="38" selection-start-column="48" selection-end-line="38" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AirballBase/src/org/schmivits/airball/airdata/TcpListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="200" max-vertical-offset="1050">
+          <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AirballBase/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
+          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AirballBaseTest/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AirballDataProxy/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
+          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AirballPhone/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DynonSkyviewFormat/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+          <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DynonSkyviewFormatTest/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestBluetoothClientServer/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4368932" vertical-offset="0" max-vertical-offset="1030">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding>
+            <element signature="e#758#776#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.12616825" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Android</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.12616825" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.12616825" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>Android API 19 Platform</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.12616825" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>AirballPhone</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.11792451" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>Android API 19 Platform</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>pl2303lib_2.0.5.15-20130509</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.12616825" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
+

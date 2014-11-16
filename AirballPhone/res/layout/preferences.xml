@@ -16,7 +16,7 @@
 
     <fragment
         android:id="@+id/main_screen"
-        class="com.google.airball.phone.PreferencesActivity$MainScreen"
+        class="org.schmivits.airball.phone.PreferencesActivity$MainScreen"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/return_to_display"
