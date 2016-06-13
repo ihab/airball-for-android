@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="libs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/AirballDataProxy/libs/android-support-v4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AirballDataProxy/libs/pl2303lib_2.0.5.15-20130509.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

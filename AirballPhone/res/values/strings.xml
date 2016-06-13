@@ -42,17 +42,20 @@
     <string name="pref_data_source_entry_dummy_data">Dummy data from accelerometer</string>
     <string name="pref_data_source_entry_constant_data">Constant data for UI testing</string>
     <string name="pref_data_source_entry_skyview_bluetooth">Dynon Skyview data over Bluetooth</string>
+    <string name="pref_data_source_entry_skyview_usb_serial">Dynon Skyview data over Prolific USB/Serial</string>
     <string name="pref_data_source_entry_xplane_udp">X-Plane data over IP</string>
 
     <string name="pref_data_source_value_dummy_data">dummy_data</string>
     <string name="pref_data_source_value_constant_data">constant_data</string>
     <string name="pref_data_source_value_skyview_bluetooth">skyview_bluetooth</string>
+    <string name="pref_data_source_value_skyview_usb_serial">skyview_usb_serial</string>
     <string name="pref_data_source_value_xplane_udp">xplane_udp</string>
 
     <string-array name="pref_data_source_entries">
         <item>@string/pref_data_source_entry_dummy_data</item>
         <item>@string/pref_data_source_entry_constant_data</item>
         <item>@string/pref_data_source_entry_skyview_bluetooth</item>
+        <item>@string/pref_data_source_entry_skyview_usb_serial</item>
         <item>@string/pref_data_source_entry_xplane_udp</item>
     </string-array>
 
@@ -60,6 +63,7 @@
         <item>@string/pref_data_source_value_dummy_data</item>
         <item>@string/pref_data_source_value_constant_data</item>
         <item>@string/pref_data_source_value_skyview_bluetooth</item>
+        <item>@string/pref_data_source_value_skyview_usb_serial</item>
         <item>@string/pref_data_source_value_xplane_udp</item>
     </string-array>
 

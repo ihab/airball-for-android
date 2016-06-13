@@ -15,8 +15,10 @@ import android.view.WindowManager;
 import org.schmivits.airball.airdata.AccelerometerFlightData;
 import org.schmivits.airball.airdata.Aircraft;
 import org.schmivits.airball.airdata.ConstantFlightData;
+import org.schmivits.airball.airdata.DynonSerialFlightData;
 import org.schmivits.airball.airdata.FlightData;
-import org.schmivits.airball.airdata.N42PEFlightData;
+import org.schmivits.airball.airdata.N42PEBluetoothFlightData;
+import org.schmivits.airball.airdata.N42PEUARTFlightData;
 import org.schmivits.airball.airdata.XPlaneNetworkFlightData;
 
 public abstract class AirballActivity extends Activity {
@@ -81,8 +83,11 @@ public abstract class AirballActivity extends Activity {
                     (SensorManager) getSystemService(SENSOR_SERVICE),
                     isLandscape());
         } else if (Prefs.prefEq(this, prefKeyId, R.string.pref_data_source_value_skyview_bluetooth)) {
-            // TODO: Dynon Skyview data source is hard-coded for N42PE and does not use the settings
-            return new N42PEFlightData(findBluetoothAdapter());
+          // TODO: Dynon Skyview data source is hard-coded for N42PE
+            return new N42PEBluetoothFlightData(findBluetoothAdapter());
+        } else if (Prefs.prefEq(this, prefKeyId, R.string.pref_data_source_value_skyview_usb_serial)) {
+          // TODO: Dynon Skyview data source is hard-coded for N42PE
+          return new N42PEUARTFlightData(this);
         } else if (Prefs.prefEq(this, prefKeyId, R.string.pref_data_source_value_xplane_udp)) {
             boolean isUdp;
             if (Prefs.prefEq(this,

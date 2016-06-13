@@ -13,11 +13,6 @@ public class DataScanThread extends Thread {
   private static final long CONNECTION_TRY_AGAIN_PAUSE = 1000L;
   private static final long READ_TIMEOUT = 5000L;
   private static final long READ_PAUSE = 50L;
-  
-  public static interface HaveData {
-    void line(String line);
-    void status(String status);
-  }
 
   private final BluetoothAdapter mAdapter;
   private final UUID mServiceUuid;

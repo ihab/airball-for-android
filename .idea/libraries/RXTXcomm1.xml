@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="RXTXcomm1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/CannedDynonSkyviewData/lib/rxtx-2.1-7-bins-r2/RXTXcomm.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

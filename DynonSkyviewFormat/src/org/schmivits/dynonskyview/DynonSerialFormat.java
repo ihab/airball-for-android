@@ -1,6 +1,8 @@
 package org.schmivits.dynonskyview;
 
 
+import android.util.Log;
+
 public class DynonSerialFormat {
 
   private static void assertEquals(Object expected, Object actual) {
@@ -242,6 +244,9 @@ public class DynonSerialFormat {
   public static ADAHRSDataBlock wordToData(String word) {
     assertEquals(51, word.length());
     checkChecksum(word);
+    Log.i("ADAHRS", "word=" + word);
+    String substr = word.substring(0, 49);
+    Log.i("ADAHRS", "substr=" + substr);
     return mAdahrsConversion.toValue(new Buffer(word.substring(0, 49)));
   }
 }

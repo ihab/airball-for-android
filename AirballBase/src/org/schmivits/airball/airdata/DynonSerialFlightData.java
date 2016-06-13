@@ -1,17 +1,15 @@
 package org.schmivits.airball.airdata;
 
-import java.util.Timer;
-import java.util.TimerTask;
-import java.util.UUID;
-
-import android.bluetooth.BluetoothAdapter;
 import android.util.Log;
 
 import org.schmivits.airball.util.ValueModel;
 import org.schmivits.dynonskyview.ADAHRSDataBlock;
 import org.schmivits.dynonskyview.DynonSerialFormat;
 
-public class DynonSerialFlightData implements FlightData {
+import java.util.Timer;
+import java.util.TimerTask;
+
+public abstract class DynonSerialFlightData implements FlightData {
 
   private static final long KEEP_ALIVE_DELAY = 500L;  // milliseconds 
 
@@ -24,13 +22,10 @@ public class DynonSerialFlightData implements FlightData {
   /** Current altitude in feet */
   private float mCurrentAltitude;
   private Timer mKeepAlive = null;
-  private final Thread mThread;
 
   public DynonSerialFlightData(
       final Aircraft aircraft,
-      BetaModel.Config config,
-      BluetoothAdapter adapter,
-      UUID bluetoothServiceUUID) {
+      BetaModel.Config config) {
     mBetaModelConfig = config;
 
     mAircraftModel = new ValueModel<Aircraft>() {
@@ -40,16 +35,6 @@ public class DynonSerialFlightData implements FlightData {
 
     updateKeepalive();
     addDataBlock(null);
-
-    mThread = new DataScanThread(adapter, bluetoothServiceUUID, new DataScanThread.HaveData() {
-      @Override public void line(final String line) {
-        DynonSerialFlightData.this.addDataLine(line);
-      }
-      @Override public void status(String status) {
-        // TODO(ihab)
-      }
-    });
-    mThread.start();
   }
 
   @Override public void addUpdateListener(Runnable r) {
@@ -59,11 +44,11 @@ public class DynonSerialFlightData implements FlightData {
   }
 
   @Override public void removeUpdateListener(Runnable r) {
-    synchronized (mUpdateSourceHelper) {    
+    synchronized (mUpdateSourceHelper) {
       mUpdateSourceHelper.removeUpdateListener(r);
     }
   }
-  
+
   private void updateKeepalive() {
     if (mKeepAlive != null) {
       mKeepAlive.cancel();
@@ -79,12 +64,12 @@ public class DynonSerialFlightData implements FlightData {
         KEEP_ALIVE_DELAY);
   }
 
-  private void addDataLine(String line) {
+  protected void addDataLine(String line) {
     try {
       addDataBlock(DynonSerialFormat.wordToData(line));
       updateKeepalive();
     } catch (Exception e) {
-      Log.v(getClass().getName(), e.toString());
+      Log.v(getClass().getName(), "Error in addDataLine: " + e.toString());
       // Corrupt data; drop on the floor
       // If this goes on too long, our timeout will fire and invalidate UI
     }
@@ -94,7 +79,7 @@ public class DynonSerialFlightData implements FlightData {
     mCurrentDataBlock = block;
 
     if (block == null) {
-      mCurrentAltitude = Float.NaN; 
+      mCurrentAltitude = Float.NaN;
     } else {
       if (!Float.isNaN(block.displayedAltitude)) {
         mCurrentAltitude = (float)
@@ -125,7 +110,7 @@ public class DynonSerialFlightData implements FlightData {
     }
     @Override public Float getValue() { return isValid() ? get() : 0.0f; }
     private float get() { return (mCurrentDataBlock == null) ? Float.NaN : getFromBlock(); }
-    protected abstract float getFromBlock();    
+    protected abstract float getFromBlock();
   }
 
   private final ValueModel<Float> mAirspeed = new AirdataValueModel("airspeed") {
@@ -165,10 +150,5 @@ public class DynonSerialFlightData implements FlightData {
   @Override
   public String getConnectionStatus() {
     return null;
-  }
-
-  @Override
-  public void destroy() {
-    mThread.interrupt();
   }
 }

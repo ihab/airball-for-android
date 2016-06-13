@@ -7,4 +7,7 @@ public class Constants {
   public static final double GRAVITATIONAL_ACCELERATION = 9.81;  // m/s^2
   public static final double SQUARE_METERS_PER_SQUARE_FOOT = METERS_PER_FOOT * METERS_PER_FOOT;
   public static final double METERS_PER_SECOND_PER_KNOT = 0.514;
+
+  public static final String LOG_TAG = "org.schmivits.airball.airdata";
+
 }
